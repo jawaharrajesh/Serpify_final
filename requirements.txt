@@ -1,0 +1,40 @@
+# ─────────────────────────────────────────────────────────────
+# Serpify Requirements
+# ─────────────────────────────────────────────────────────────
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# ── Core App ──────────────────────────────────────────────────
+streamlit
+
+# ── Data Processing ───────────────────────────────────────────
+pandas
+openpyxl
+
+# ── Web Crawling & SEO ────────────────────────────────────────
+beautifulsoup4
+lxml
+requests
+urllib3
+advertools
+
+# ── PDF Handling ──────────────────────────────────────────────
+PyMuPDF
+pillow
+
+# ── AI / Gemini ───────────────────────────────────────────────
+google-generativeai
+
+# ── Database ──────────────────────────────────────────────────
+# psycopg2-binary is the PostgreSQL driver.
+# Required for production (Supabase / Railway / Render).
+# sqlite3 is built into Python — no install needed for dev.
+psycopg2-binary
+
+# ── Security & Auth ───────────────────────────────────────────
+bcrypt
+
+# ── Configuration ─────────────────────────────────────────────
+# python-dotenv loads .env file into environment variables.
+# This is what makes `from config import settings` work.
+python-dotenv
